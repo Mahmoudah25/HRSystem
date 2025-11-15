@@ -160,3 +160,4 @@ D:\API Projects\HRManagmentSystem\HRManagmentSystem\obj\Debug\net8.0\refint\HRMa
 D:\API Projects\HRManagmentSystem\HRManagmentSystem\obj\Debug\net8.0\HRManagmentSystem.pdb
 D:\API Projects\HRManagmentSystem\HRManagmentSystem\obj\Debug\net8.0\HRManagmentSystem.genruntimeconfig.cache
 D:\API Projects\HRManagmentSystem\HRManagmentSystem\obj\Debug\net8.0\ref\HRManagmentSystem.dll
+D:\API Projects\HRManagmentSystem\HRManagmentSystem\obj\Debug\net8.0\HRManagmentSystem.sourcelink.json
