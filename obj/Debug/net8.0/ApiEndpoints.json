@@ -1,0 +1,2807 @@
+[
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AccountController",
+    "Method": "Me",
+    "RelativePath": "api/Account/AboutMe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AccountController",
+    "Method": "ChangeEmail",
+    "RelativePath": "api/Account/Change-Email",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Account_User.ChangeEmailDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AccountController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Account/ChangePassword",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Account_User.ChangePasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AccountController",
+    "Method": "ChangeUserName",
+    "RelativePath": "api/Account/ChangeUserName",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Account_User.ChangeUserNameDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AccountController",
+    "Method": "ConfirmEmail",
+    "RelativePath": "api/Account/ConfirmEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AccountController",
+    "Method": "DeleteAccount",
+    "RelativePath": "api/Account/DeleteAccount",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Account_User.DeleteAcoountDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AccountController",
+    "Method": "ForgetPassord",
+    "RelativePath": "api/Account/ForgetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Account_User.ForgetPasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AccountController",
+    "Method": "LogIn",
+    "RelativePath": "api/Account/LogIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "logInDTO",
+        "Type": "HRManagmentSystem.DTOs.Account_User.LogInDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AccountController",
+    "Method": "LoginWithGoogle",
+    "RelativePath": "api/Account/login-Google",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Account_User.GoogleLoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AccountController",
+    "Method": "LogOut",
+    "RelativePath": "api/Account/LogOut",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Account_User.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AccountController",
+    "Method": "ResendEmailConfiremed",
+    "RelativePath": "api/Account/ResendEmailConfiremed",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Account_User.ResendEmailConfiremedDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AccountController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Account/ResetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Account_User.ResetPasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AdminController",
+    "Method": "AddAdmin",
+    "RelativePath": "api/Admin/Add-Admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Account_User.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AdminController",
+    "Method": "AddEmployee",
+    "RelativePath": "api/Admin/Add-Employee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Account_User.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AdminController",
+    "Method": "AddHR",
+    "RelativePath": "api/Admin/Add-HR",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Account_User.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AdminController",
+    "Method": "CheckRole",
+    "RelativePath": "api/Admin/CheckRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AdminController",
+    "Method": "GetProfile",
+    "RelativePath": "api/Admin/Profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AllowanceController",
+    "Method": "AddAllowance",
+    "RelativePath": "api/Allowance/AddAllowance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Allowance.AddAllowanceDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AllowanceController",
+    "Method": "DeleteAllowance",
+    "RelativePath": "api/Allowance/DeleteAllowance{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AllowanceController",
+    "Method": "EditAllowance",
+    "RelativePath": "api/Allowance/EditAllowance/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Allowance.EditAllowanceDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AllowanceController",
+    "Method": "GetAllAllownce",
+    "RelativePath": "api/Allowance/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AllowanceController",
+    "Method": "GetByEmployee",
+    "RelativePath": "api/Allowance/GetByEmployee/{emolyeeid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emolyeeid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AllowanceController",
+    "Method": "getById",
+    "RelativePath": "api/Allowance/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AllowanceController",
+    "Method": "GetByType",
+    "RelativePath": "api/Allowance/GetByType/{type}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AllowanceController",
+    "Method": "Search",
+    "RelativePath": "api/Allowance/Search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "minValue",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxValue",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AnnouncementController",
+    "Method": "Add",
+    "RelativePath": "api/Announcement/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Announcement.AddAnnouncememtDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AnnouncementController",
+    "Method": "Count",
+    "RelativePath": "api/Announcement/Count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AnnouncementController",
+    "Method": "Delete",
+    "RelativePath": "api/Announcement/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AnnouncementController",
+    "Method": "Edit",
+    "RelativePath": "api/Announcement/Edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Announcement.EditAnnouncememtDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AnnouncementController",
+    "Method": "GetAllAnnouncements",
+    "RelativePath": "api/Announcement/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AnnouncementController",
+    "Method": "GetByDateRange",
+    "RelativePath": "api/Announcement/GetByDateRange",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AnnouncementController",
+    "Method": "GetById",
+    "RelativePath": "api/Announcement/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AnnouncementController",
+    "Method": "GetByName",
+    "RelativePath": "api/Announcement/GetByName/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AnnouncementController",
+    "Method": "GetLatest",
+    "RelativePath": "api/Announcement/latest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AnnouncementController",
+    "Method": "Search",
+    "RelativePath": "api/Announcement/Search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "keyword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AttendenceController",
+    "Method": "CheckIn",
+    "RelativePath": "api/Attendence/CheckIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AttendenceController",
+    "Method": "CheckOut",
+    "RelativePath": "api/Attendence/CheckOut",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AttendenceController",
+    "Method": "DeleteAttendece",
+    "RelativePath": "api/Attendence/DeleteAttendece",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AttendenceController",
+    "Method": "Filter",
+    "RelativePath": "api/Attendence/Filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "strattime",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endtime",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AttendenceController",
+    "Method": "Getall",
+    "RelativePath": "api/Attendence/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AttendenceController",
+    "Method": "GetByDate",
+    "RelativePath": "api/Attendence/GetByDate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AttendenceController",
+    "Method": "GetEmployee",
+    "RelativePath": "api/Attendence/GetEmployee/{empid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AttendenceController",
+    "Method": "GetLateEmploee",
+    "RelativePath": "api/Attendence/LatestEmployees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workStart",
+        "Type": "System.TimeSpan",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AttendenceController",
+    "Method": "Reports",
+    "RelativePath": "api/Attendence/Reports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StartDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Enddate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "employeeId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AttendenceController",
+    "Method": "GetToday",
+    "RelativePath": "api/Attendence/ToDay",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.AttendenceController",
+    "Method": "updateAttendece",
+    "RelativePath": "api/Attendence/Update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Attendece.UpdateAttendeceDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DeductionController",
+    "Method": "Add",
+    "RelativePath": "api/Deduction/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Deduction.AddDeductionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DeductionController",
+    "Method": "Delete",
+    "RelativePath": "api/Deduction/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DeductionController",
+    "Method": "Edit",
+    "RelativePath": "api/Deduction/Edit{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Deduction.EditDeductionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DeductionController",
+    "Method": "GetAllDeductions",
+    "RelativePath": "api/Deduction/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DeductionController",
+    "Method": "GetByemployee",
+    "RelativePath": "api/Deduction/GetByemployee/{employeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DeductionController",
+    "Method": "GetById",
+    "RelativePath": "api/Deduction/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DeductionController",
+    "Method": "GroupByEmployee",
+    "RelativePath": "api/Deduction/GroupByEmployee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DeductionController",
+    "Method": "getLatest",
+    "RelativePath": "api/Deduction/Latest/{count}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "count",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DeductionController",
+    "Method": "GetPaged",
+    "RelativePath": "api/Deduction/Paged",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DeductionController",
+    "Method": "Search",
+    "RelativePath": "api/Deduction/Search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Keyword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DeductionController",
+    "Method": "GetTotaldeduction",
+    "RelativePath": "api/Deduction/TotalByEmployee/{EmployeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmployeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DepartmentController",
+    "Method": "DeleteDepartment",
+    "RelativePath": "api/Department/{id}/DeleteDepartment",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DepartmentController",
+    "Method": "EditDepartment",
+    "RelativePath": "api/Department/{id}/EditDepartment",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Department.EditDepartmentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DepartmentController",
+    "Method": "GetDepartmentWithEmployee",
+    "RelativePath": "api/Department/{id}/Employee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DepartmentController",
+    "Method": "GetDeptById",
+    "RelativePath": "api/Department/{id}/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DepartmentController",
+    "Method": "RestoreDept",
+    "RelativePath": "api/Department/{id}/Restore",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DepartmentController",
+    "Method": "GetDeptStatistics",
+    "RelativePath": "api/Department/{id}/Statistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DepartmentController",
+    "Method": "GetDeptByName",
+    "RelativePath": "api/Department/{name}/GetByName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DepartmentController",
+    "Method": "AddDepartment",
+    "RelativePath": "api/Department/AddDepartment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Department.AddDepartmentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DepartmentController",
+    "Method": "BulkInsert",
+    "RelativePath": "api/Department/BulkInsert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "models",
+        "Type": "System.Collections.Generic.List\u00601[[HRManagmentSystem.DTOs.Department.BulkInsertDeptDTO, HRManagmentSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DepartmentController",
+    "Method": "GetDeptStatistics",
+    "RelativePath": "api/Department/ByName/{name}/Statistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DepartmentController",
+    "Method": "GetDeletedDepartments",
+    "RelativePath": "api/Department/Deleted",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DepartmentController",
+    "Method": "GetAllDepartment",
+    "RelativePath": "api/Department/GetAllDepartment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DepartmentController",
+    "Method": "GetTopDepartment",
+    "RelativePath": "api/Department/GetTopDepartment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "count",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DepartmentController",
+    "Method": "SearchDepartments",
+    "RelativePath": "api/Department/Search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "keyword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.DepartmentController",
+    "Method": "Summary",
+    "RelativePath": "api/Department/Summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.EmployeeController",
+    "Method": "DeleteEmployee",
+    "RelativePath": "api/Employee/{id}/DeleteEmployee",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.EmployeeController",
+    "Method": "EditEmployee",
+    "RelativePath": "api/Employee/{id}/EditEmployee",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Employee.EditEmployeeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.EmployeeController",
+    "Method": "RestoreEmployee",
+    "RelativePath": "api/Employee/{id}/Restore",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.EmployeeController",
+    "Method": "ChangeEmployeeStatus",
+    "RelativePath": "api/Employee/{id}/ToggleStatus",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.EmployeeController",
+    "Method": "GetActiveEmployees",
+    "RelativePath": "api/Employee/Active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.EmployeeController",
+    "Method": "AddEmployee",
+    "RelativePath": "api/Employee/AddEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Employee.AddEmployeeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.EmployeeController",
+    "Method": "BulkInsert",
+    "RelativePath": "api/Employee/BulkInsert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "models",
+        "Type": "System.Collections.Generic.List\u00601[[HRManagmentSystem.DTOs.Employee.AddEmployeeDTO, HRManagmentSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.EmployeeController",
+    "Method": "GetEmpsByDept",
+    "RelativePath": "api/Employee/ByDepartment{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.EmployeeController",
+    "Method": "Count",
+    "RelativePath": "api/Employee/Count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.EmployeeController",
+    "Method": "GetDeletedEmployees",
+    "RelativePath": "api/Employee/Deleted",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.EmployeeController",
+    "Method": "GetAllEmployee",
+    "RelativePath": "api/Employee/GetAllEmployee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.EmployeeController",
+    "Method": "GetById",
+    "RelativePath": "api/Employee/GetById{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.EmployeeController",
+    "Method": "GetByName",
+    "RelativePath": "api/Employee/GetByName{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.EmployeeController",
+    "Method": "GetPaged",
+    "RelativePath": "api/Employee/Paged",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.EmployeeController",
+    "Method": "GetEmployeeProfile",
+    "RelativePath": "api/Employee/Profile/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.EmployeeController",
+    "Method": "SalaryStats",
+    "RelativePath": "api/Employee/SalaryStats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.EmployeeController",
+    "Method": "Search",
+    "RelativePath": "api/Employee/Search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.EmployeeController",
+    "Method": "SortBy",
+    "RelativePath": "api/Employee/SortBy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "field",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "order",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.HolidayController",
+    "Method": "AddHoliday",
+    "RelativePath": "api/Holiday/AddHoliday",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.HoliDay.AddHoildayDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.HolidayController",
+    "Method": "count",
+    "RelativePath": "api/Holiday/Count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.HolidayController",
+    "Method": "DeleteHoliday",
+    "RelativePath": "api/Holiday/DeleteHoliday/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.HolidayController",
+    "Method": "Edit",
+    "RelativePath": "api/Holiday/EditHoliday/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.HoliDay.EditHoliDayDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.HolidayController",
+    "Method": "GetAllHolidays",
+    "RelativePath": "api/Holiday/GetAllHolidays",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.HolidayController",
+    "Method": "GetHolidayByDate",
+    "RelativePath": "api/Holiday/GetByDate/{date}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.HolidayController",
+    "Method": "GetHolidayByID",
+    "RelativePath": "api/Holiday/GetByID/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.HolidayController",
+    "Method": "GetHolidayByName",
+    "RelativePath": "api/Holiday/GetByName/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.HolidayController",
+    "Method": "GetRecurring",
+    "RelativePath": "api/Holiday/GetRecurring",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.HolidayController",
+    "Method": "GetInDateRange",
+    "RelativePath": "api/Holiday/Range",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "start",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "end",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.HolidayController",
+    "Method": "GetUpcomingHolidays",
+    "RelativePath": "api/Holiday/Upcoming",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.LeaveController",
+    "Method": "DeleteLeave",
+    "RelativePath": "api/Leave/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.LeaveController",
+    "Method": "GetLeaveById",
+    "RelativePath": "api/Leave/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.LeaveController",
+    "Method": "ApproveLeave",
+    "RelativePath": "api/Leave/{id}/Approve",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.LeaveController",
+    "Method": "RejectLeave",
+    "RelativePath": "api/Leave/{id}/Reject",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.LeaveController",
+    "Method": "GetLeaevesByDate",
+    "RelativePath": "api/Leave/ByDate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.LeaveController",
+    "Method": "FilterByDateRange",
+    "RelativePath": "api/Leave/FilterByDateRange",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.LeaveController",
+    "Method": "FilterByStatus",
+    "RelativePath": "api/Leave/FilterByStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.LeaveController",
+    "Method": "GetAllLeaves",
+    "RelativePath": "api/Leave/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.LeaveController",
+    "Method": "GetLeavesByEmployee",
+    "RelativePath": "api/Leave/GetByEmployee/{employeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.LeaveController",
+    "Method": "GetPendingleaves",
+    "RelativePath": "api/Leave/Pending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.LeaveController",
+    "Method": "RequestLeave",
+    "RelativePath": "api/Leave/RequestLeave",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Leave.AddLeaveDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.LeaveController",
+    "Method": "updateLeave",
+    "RelativePath": "api/Leave/Update{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Leave.EditLeaveDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.OverTimeController",
+    "Method": "Add",
+    "RelativePath": "api/OverTime/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.OverTime.AddOverTimeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.OverTimeController",
+    "Method": "Delete",
+    "RelativePath": "api/OverTime/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.OverTimeController",
+    "Method": "Edit",
+    "RelativePath": "api/OverTime/Edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.OverTime.EditOverTimeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.OverTimeController",
+    "Method": "GetAll",
+    "RelativePath": "api/OverTime/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.OverTimeController",
+    "Method": "GetOverTimeByDateRange",
+    "RelativePath": "api/OverTime/GetByDateRange",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StratTime",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "EndTime",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.OverTimeController",
+    "Method": "GetOverTimeForSpectficEmployee",
+    "RelativePath": "api/OverTime/GetByEmployee/{empId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.OverTimeController",
+    "Method": "GetById",
+    "RelativePath": "api/OverTime/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.OverTimeController",
+    "Method": "GetMonthlyOverTime",
+    "RelativePath": "api/OverTime/GetMonthly",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.OverTimeController",
+    "Method": "GetTopEmployeesOvertime",
+    "RelativePath": "api/OverTime/TopOverTime",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "count",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.OverTimeController",
+    "Method": "GetAmount",
+    "RelativePath": "api/OverTime/TotalAmount/{empId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.OverTimeController",
+    "Method": "GetTotalHoursForEmployee",
+    "RelativePath": "api/OverTime/Totalhours{empId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PayrollController",
+    "Method": "AddRolls",
+    "RelativePath": "api/Payroll/AddPayRoll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.PayRoll.AddPayRollDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PayrollController",
+    "Method": "CalcuatePayRoll",
+    "RelativePath": "api/Payroll/Calcuate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.PayRoll.CalculatePayrollDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PayrollController",
+    "Method": "DeletePayRolls",
+    "RelativePath": "api/Payroll/DeletePayRoll/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PayrollController",
+    "Method": "EditPayRolls",
+    "RelativePath": "api/Payroll/EditRolls/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.PayRoll.EditPayRollsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PayrollController",
+    "Method": "GetAllPayRoll",
+    "RelativePath": "api/Payroll/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PayrollController",
+    "Method": "GetByDate",
+    "RelativePath": "api/Payroll/GetByDate/{Month}/{Year}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Month",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Year",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PayrollController",
+    "Method": "GetByEmployeeId",
+    "RelativePath": "api/Payroll/GetByEmployee/{EmployeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmployeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PayrollController",
+    "Method": "GetbyId",
+    "RelativePath": "api/Payroll/GetRollById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PayrollController",
+    "Method": "GetTotalForMonth",
+    "RelativePath": "api/Payroll/GetTotalForMonth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PayrollController",
+    "Method": "GetLatest",
+    "RelativePath": "api/Payroll/Latest/{count}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "count",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PerformanceReviewController",
+    "Method": "Add",
+    "RelativePath": "api/PerformanceReview/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.PerformanceReview.AddPerformanceReviewDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PerformanceReviewController",
+    "Method": "GetAverageScoreFroEmployee",
+    "RelativePath": "api/PerformanceReview/AverageScore/{empId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PerformanceReviewController",
+    "Method": "GetAverageScoresAll",
+    "RelativePath": "api/PerformanceReview/AverageScoresAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PerformanceReviewController",
+    "Method": "GetinDateRange",
+    "RelativePath": "api/PerformanceReview/ByDateRange",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "start",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "End",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PerformanceReviewController",
+    "Method": "GetByScoreRange",
+    "RelativePath": "api/PerformanceReview/ByScoreRange",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "minScore",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxScore",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PerformanceReviewController",
+    "Method": "CountByemployee",
+    "RelativePath": "api/PerformanceReview/Count/{empId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PerformanceReviewController",
+    "Method": "Delete",
+    "RelativePath": "api/PerformanceReview/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PerformanceReviewController",
+    "Method": "Edit",
+    "RelativePath": "api/PerformanceReview/Edit/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.PerformanceReview.EditPerformanceReviewDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PerformanceReviewController",
+    "Method": "GetAllReviews",
+    "RelativePath": "api/PerformanceReview/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PerformanceReviewController",
+    "Method": "GetReviewsByEmployee",
+    "RelativePath": "api/PerformanceReview/getByEmployee/{empId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PerformanceReviewController",
+    "Method": "GetById",
+    "RelativePath": "api/PerformanceReview/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PerformanceReviewController",
+    "Method": "GetLatestRewiewForEmployee",
+    "RelativePath": "api/PerformanceReview/Latest/{empId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PerformanceReviewController",
+    "Method": "GetLatestReviewDateForAllEmployees",
+    "RelativePath": "api/PerformanceReview/LatestForAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PerformanceReviewController",
+    "Method": "GEtEmployeesWithoutReviews",
+    "RelativePath": "api/PerformanceReview/NoReviews",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PerformanceReviewController",
+    "Method": "GetOrderedByDate",
+    "RelativePath": "api/PerformanceReview/OrderByDate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PerformanceReviewController",
+    "Method": "FilterComment",
+    "RelativePath": "api/PerformanceReview/SearchComment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Keyword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PerformanceReviewController",
+    "Method": "GetTopReviews",
+    "RelativePath": "api/PerformanceReview/Top/{empId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "count",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PositionController",
+    "Method": "DeletePosition",
+    "RelativePath": "api/Position/{id}/DeletePosition",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PositionController",
+    "Method": "EditPosition",
+    "RelativePath": "api/Position/{id}/EditPosition",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Position.EditPositionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PositionController",
+    "Method": "AddPosition",
+    "RelativePath": "api/Position/AddPosition",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Position.AddPoistionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PositionController",
+    "Method": "GetAllPositons",
+    "RelativePath": "api/Position/GetAllPositons",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PositionController",
+    "Method": "GetPositionByTitle",
+    "RelativePath": "api/Position/GetPositionByTitle",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PositionController",
+    "Method": "GetPositionById",
+    "RelativePath": "api/Position/GetPositonsById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.PositionController",
+    "Method": "Search",
+    "RelativePath": "api/Position/Search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "level",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.TraningController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/Traning/{id}/UpdateStatus",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.TraningController",
+    "Method": "AddCertificate",
+    "RelativePath": "api/Traning/{trainingId}/AddCertificate/{EmployeeId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trainingId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "EmployeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "CertificateName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.TraningController",
+    "Method": "DisplayCertificateForSpecialTraning",
+    "RelativePath": "api/Traning/{TrainingId}/Certificate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TrainingId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.TraningController",
+    "Method": "GetEmployeesInTraining",
+    "RelativePath": "api/Traning/{trainingId}/Employees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trainingId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.TraningController",
+    "Method": "AssignEmployee",
+    "RelativePath": "api/Traning/{TrainningID}/AssignTo/{EmployeeId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TrainningId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "EmployeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.TraningController",
+    "Method": "DeleteEmployee",
+    "RelativePath": "api/Traning/{TrainningID}/RemoveEmployee/{EmployeeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TrainningId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "EmployeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.TraningController",
+    "Method": "Add",
+    "RelativePath": "api/Traning/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Traning.AddTraningDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.TraningController",
+    "Method": "Delete",
+    "RelativePath": "api/Traning/Delete{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.TraningController",
+    "Method": "GetTrainingForEmployee",
+    "RelativePath": "api/Traning/Employee/{employeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.TraningController",
+    "Method": "DisplayCertificateForSpecialEmployee",
+    "RelativePath": "api/Traning/Employee/{employeeId}/Certificate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.TraningController",
+    "Method": "Finished",
+    "RelativePath": "api/Traning/Finished",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.TraningController",
+    "Method": "GetAll",
+    "RelativePath": "api/Traning/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.TraningController",
+    "Method": "GetById",
+    "RelativePath": "api/Traning/GetBy/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.TraningController",
+    "Method": "Search",
+    "RelativePath": "api/Traning/Search/{title}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.TraningController",
+    "Method": "UpComing",
+    "RelativePath": "api/Traning/UpComing",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HRManagmentSystem.Controllers.TraningController",
+    "Method": "Edit",
+    "RelativePath": "api/Traning/Update{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "HRManagmentSystem.DTOs.Traning.UpdateTraingDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
